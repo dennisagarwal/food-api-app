@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import './key'
 
-function App() {
+function App(props) {
+  let url = `https://api.edamam.com/api/recipes/v2?type=public&q=chicken&app_id=$props.api_id}&app_key=${props.api_key}&from=0&to=36&calories=591-722&health=alcohol-free`;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello React</h1>
     </div>
   );
 }

@@ -1,9 +1,9 @@
-.recipeTile{
+/* .recipeTile{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
+} */
 
 .recipeTile__img{
   height:200px;

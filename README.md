@@ -75,6 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Implemented the basics of Node.js.
 - Used Semantic HTML.
 - Flexbox, SASS.
+- Axios.
 
 
 ## Installation
@@ -101,6 +102,7 @@ $ npm start
 - React JS.
 - React Hook.
 - Node.js
+- Axios.
 - APIs.
 - HTML.
 - Flexbox, SASS.
